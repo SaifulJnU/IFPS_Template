@@ -1,7 +1,7 @@
 
 In the infura site:
 Step 1. Create IPFS project with card info
-Step 2. place following code with your old code
+Step 2. replace the following code with your old code
 
 
 const projectId = '2E8Kps3Xij.................';   
