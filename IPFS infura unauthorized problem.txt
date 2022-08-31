@@ -1,0 +1,24 @@
+
+In the infura site:
+Step 1. Create IPFS project with card info
+Step 2. place following code with your old code
+
+
+const projectId = '2E8Kps3Xij.................';   
+const projectSecret = 'b222afc94.....................';  
+const auth = 'Basic ' + Buffer.from(projectId + ':' + projectSecret).toString('base64');
+
+
+const ipfsClient = require('ipfs-http-client')
+const ipfs = ipfsClient.create({ 
+  host: "ipfs.infura.io",
+   port: 5001, 
+   protocol: "https",
+   apiPath: "/api/v0",
+   headers: {
+       authorization: auth,
+   }, 
+  });
+
+
+Step 3. Save and npm start 
