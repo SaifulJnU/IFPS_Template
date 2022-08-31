@@ -1,6 +1,6 @@
 
 In the infura site:
-Step 1. Create IPFS project with card info
+Step 1. Create IPFS project with card info  
 Step 2. replace the following code with your old code
 
 
@@ -23,3 +23,5 @@ const ipfs = ipfsClient.create({
 
 
 Step 5. Save and npm start 
+
+note: If you get the error with the name called ". create() is not defined" or like something then just remove the .create() method from the above code...It will work still perfectly
