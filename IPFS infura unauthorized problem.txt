@@ -4,8 +4,9 @@ Step 1. Create IPFS project with card info
 Step 2. replace the following code with your old code
 
 
-const projectId = '2E8Kps3Xij.................';   
-const projectSecret = 'b222afc94.....................';  
+const projectId = '2E8Kps3Xij.................';   //(Step 3. Place the project id from your infura project)
+const projectSecret = 'b222afc94.....................';  //(Step 4. Place the project_secrect from your infura project)
+
 const auth = 'Basic ' + Buffer.from(projectId + ':' + projectSecret).toString('base64');
 
 
@@ -21,4 +22,4 @@ const ipfs = ipfsClient.create({
   });
 
 
-Step 3. Save and npm start 
+Step 5. Save and npm start 
