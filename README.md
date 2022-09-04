@@ -1,4 +1,4 @@
-# IFPS_Template
+# IPFS_Template
 In this repository, I will keep all updated code syntax for infura, IPFS (create, update, load)
 
 ## Error Tags: for unauthorization
